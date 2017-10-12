@@ -12,6 +12,7 @@
 		CB830A071F8CB0CC00647747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB830A051F8CB0CC00647747 /* Main.storyboard */; };
 		CB830A091F8CB0CC00647747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB830A081F8CB0CC00647747 /* Assets.xcassets */; };
 		CB830A0C1F8CB0CC00647747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB830A0A1F8CB0CC00647747 /* LaunchScreen.storyboard */; };
+		CBF370901F8F6E550068DEC1 /* HGPlazaDetailTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3708F1F8F6E550068DEC1 /* HGPlazaDetailTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB830A081F8CB0CC00647747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB830A0B1F8CB0CC00647747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB830A0D1F8CB0CC00647747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF3708F1F8F6E550068DEC1 /* HGPlazaDetailTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGPlazaDetailTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CB830A011F8CB0CC00647747 /* AppDelegate.swift */,
 				CB830A031F8CB0CC00647747 /* ViewController.swift */,
+				CBF3708F1F8F6E550068DEC1 /* HGPlazaDetailTextView.swift */,
 				CB830A051F8CB0CC00647747 /* Main.storyboard */,
 				CB830A081F8CB0CC00647747 /* Assets.xcassets */,
 				CB830A0A1F8CB0CC00647747 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB830A041F8CB0CC00647747 /* ViewController.swift in Sources */,
+				CBF370901F8F6E550068DEC1 /* HGPlazaDetailTextView.swift in Sources */,
 				CB830A021F8CB0CC00647747 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				CB830A121F8CB0CC00647747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
